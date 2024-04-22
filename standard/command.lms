@@ -1,0 +1,8 @@
+| Author: "Champen_V1ldtand"
+| Version: "0.0.1-pre-alpha"
+| Description: "Simple syntax example for commands in LMS"
+
+on /ping [<BOOLEAN>]:
+    if arg-1 is true:
+        send "cake!"
+    display message "pong!"
