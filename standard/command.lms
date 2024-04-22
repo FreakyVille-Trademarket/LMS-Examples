@@ -5,4 +5,4 @@
 on /ping [<BOOLEAN>]:
     if arg-1 is true:
         send "cake!"
-    display "pong!"
+    display message "pong!"
