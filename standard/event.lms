@@ -1,0 +1,8 @@
+| Author: "Champen_V1ldtand"
+| Version: "0.0.1-pre-alpha"
+| Description: "Simple syntax example for events in LMS"
+
+on Chat Receive:
+    # Cancels the event before the chat is displayed
+    cancel event
+    display title "This is a title" with subtitle "This is a subtitle" for 20 ticks with fade-in of 5 ticks and fade-out for 10 ticks
